@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:ital@1&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google" content="notranslate">
+    <title>Surfers Co.</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <div id="fb-root"></div>
+  
+</head>
+
+<body>
+
+    <!--Header-->
+    <header class="header" id="header">
+        <div class="menu" id="menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg px-0" id="navbar">
+                    <a class="navbar-brand" href="#">Surfers Co.</a>
+                    <button class="navbar-toggler" id="navToggle" type="button" data-toggle="collapse" data-target="#navbarContent"
+                        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i class="fa fa-navicon" style="color: #000; font-size:28px;"></i>
+                        </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav d-flex mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-value="boards">Boards</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-value="boards">Accessories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-value="blog">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-value="boards">Technology</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-value="team">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-value="about">Dealers</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="social d-none d-sm-none d-md-none d-lg-none d-xl-flex flex-row">
+                        <a class="social__item ml-2 d-flex justify-content-center align-items-center" href="#">
+                            <img class="social-icon" src="img/Logo_face.png">
+                        </a>
+                        <a class="social__item ml-2 d-flex justify-content-center align-items-center" href="#">
+                            <img class="social-icon" src="img/Logo_inst.png">
+                        </a>
+                        <a class="social__item ml-2 d-flex justify-content-center align-items-center" href="#">
+                            <img class="social-icon" src="img/Icon_mail.png">
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <!--Banner-->
+    <div class="banner">
+        <div class="container">
+            <div class="col-12  mx-auto">
+                <div class="banner__inner text-center">
+                    <h3 class="banner__title text-center">Ride every your wave as if it's your last</h3>
+                    <p class="banner__subtitle text-center text-white">We love the motion of the ocean</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Boards Carousel-->
+    <div class="carousel slide" id="boards" data-ride="carousel" data-interval="">
+        <div class="container">
+            <ol class="carousel-indicators d-flex d-xl-none">
+                <li data-target="#boards" data-slide-to="0" class="active"></li>
+                <li data-target="#boards" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" id="board__inner">
+                <div class="carousel-item active">
+                    <!--<div class="boards__heading">Boards</div>-->
+                    <div class="blue d-none d-lg-block">
+                        <img class="corner" src="img/Corner.png">
+                    </div>
+                    <div class="row">
+                        <div class="board__pictures d-flex flex-row col-12 col-md-12 col-lg-6 mb-3 p-0 justify-content-center">
+                            <img src="img/Boards.png" class="board__img d-block" alt="">
+                            <div class="board__photo d-flex flex-column justify-content-center align-items-center">
+                                <a class="board__link" href="#">
+                                    <img class="board__icon d-block" src="img/board1.png">
+                                </a>
+                                <a class="board__link" href="#">
+                                    <img class="board__icon d-block" src="img/board2.png">
+                                </a>
+                                <a class="board__link" href="#">
+                                    <img class="board__icon d-block" src="img/board3.png">
+                                </a>
+                                <a class="board__link" href="#">
+                                    <img class="board__icon d-block" src="img/board4.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="board__content col-12 col-sm-12 col-md-12 col-lg-6">
+                            <h1 class="board__title">JR Surfboards The Donny Stoker Yellow/Green Rail Fade</h1>
+                            <div class="board__rate" d-flex flex-row>
+                                <i class="fa fa-star fa" style="color: #f1df1a"></i>
+                                <i class="fa fa-star fa" style="color: #f1df1a"></i>
+                                <i class="fa fa-star fa" style="color: #f1df1a"></i>
+                                <i class="fa fa-star fa" style="color: #f1df1a"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+
+                            <div class="board__card pmd-card d-none d-lg-block" id="board__card">
+                                <div class="pmd-tabs">
+                                    <ul class="nav nav-tabs d-flex text-left" role="tablist">
+                                        <li class="nav-item"><a class="nav-link active p-0" href="#description"
+                                                aria-controls="description" role="tab" data-toggle="tab">Description</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link p-0" href="#features"
+                                                aria-controls="features" role="tab" data-toggle="tab">Features</a></li>
+                                        <li class="nav-item"><a class="nav-link p-0" href="#dimensions"
+                                                aria-controls="dimensions" role="tab" data-toggle="tab">Dimensions</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body px-0 pb-0">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active text-left" id="description">Easy to
+                                            ride, care free surfing craft that's fun for everyone, paddles well,
+                                            superfast down the line and great for every level of surfing depending on
+                                            who rides it. The Donny Stocker, a rework on design from stokesys first ever
+                                            pro model. A super easy to surf and fun board. The Donny Stoker is a board
+                                            for total freesurfing expression.</div>
+                                        <div role="tabpanel" class="tab-pane" id="features">+ Manoeuvrable when riding
+                                            down the wave<br>+ Easy to duck dive</div>
+                                        <div role="tabpanel" class="tab-pane" id="dimensions">The length of the board is
+                                            measured from nose to tail - 6’6″<br>Width is measured from the widest part
+                                            - 20″1/4′<br>The widest part measures thickness - 2″5/6′
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="accordion" class="accordionTabs mb-5 mb-lg-0 d-block d-lg-none">
+                                <div class="card">
+                                    <div class="card-header" id="tabOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Description</button>
+                                        </h5>
+                                    </div>
+                              
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="tabOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>Easy to ride, care free surfing craft that's fun for everyone, paddles well,
+                                            superfast down the line and great for every level of surfing depending on
+                                            who rides it. The Donny Stocker, a rework on design from stokesys first ever
+                                            pro model. A super easy to surf and fun board. The Donny Stoker is a board
+                                            for total freesurfing expression.</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="card">
+                                    <div class="card-header" id="tabTwo">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Features</button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="tabTwo" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>+ Manoeuvrable when riding
+                                            down the wave<br>+ Easy to duck dive</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="card">
+                                    <div class="card-header" id="tabhree">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Dimensions</button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="tabThree" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>The length of the board is measured from nose to tail - 6’6″<br>Width is measured from the widest part - 20″1/4′<br>The widest part measures thickness - 2″5/6′</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="board__info d-flex flex-row">
+                                <span class="board__price mr-4">499</span>
+                                <button type="button" class="btn-blue btn-primary btn-sm">Buy now</button>
+                            </div>
+                            <div class="view d-flex mb-0">
+                                <a class="view__link" href="#">View all boards</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="board__pictures d-flex flex-row col-12 col-md-12 col-lg-6 mb-3 justify-content-center"> 
+                            <img src="img/Boards.png" class="board__img d-block" alt="">
+                            <div class="board__photo d-flex d-flex flex-column justify-content-center align-items-center"> 
+                                <a class="board__link" href="#">
+                                    <img class="board__icon d-block" src="img/board1.png">
+                                </a>
+                                <a class="board__link" href="#">
+                                    <img class="board__icon d-block" src="img/board2.png">
+                                </a>
+                                <a class="board__link" href="#">
+                                    <img class="board__icon d-block" src="img/board3.png">
+                                </a>
+                                <a class="board__link" href="#">
+                                    <img class="board__icon d-block" src="img/board4.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="board__content col-12 col-sm-12 col-md-12 col-lg-6">
+                            <h1 class="board__title">JR Surfboards The Donny Stoker Yellow/Green Rail Fade</h1>
+                            <div class="board__rate" d-flex flex-row>
+                                <i class="fa fa-star fa" style="color: #f1df1a"></i>
+                                <i class="fa fa-star fa" style="color: #f1df1a"></i>
+                                <i class="fa fa-star fa" style="color: #f1df1a"></i>
+                                <i class="fa fa-star fa" style="color: #f1df1a"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="board__card pmd-card d-none d-lg-block" id="board__card">
+                                <div class="pmd-tabs">
+                                    <ul class="nav nav-tabs d-flex text-left" role="tablist">
+                                        <li class="nav-item"><a class="nav-link active p-0" href="#description"
+                                                aria-controls="description" role="tab" data-toggle="tab">Description</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link p-0" href="#features"
+                                                aria-controls="features" role="tab" data-toggle="tab">Features</a></li>
+                                        <li class="nav-item"><a class="nav-link p-0" href="#dimensions"
+                                                aria-controls="dimensions" role="tab" data-toggle="tab">Dimensions</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body px-0 pb-0">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active text-left" id="description">Easy to
+                                            ride, care free surfing craft that's fun for everyone, paddles well,
+                                            superfast down the line and great for every level of surfing depending on
+                                            who rides it. The Donny Stocker, a rework on design from stokesys first ever
+                                            pro model. A super easy to surf and fun board. The Donny Stoker is a board
+                                            for total freesurfing expression.</div>
+                                        <div role="tabpanel" class="tab-pane" id="features">+ Manoeuvrable when riding
+                                            down the wave<br>+ Easy to duck dive</div>
+                                        <div role="tabpanel" class="tab-pane" id="dimensions">The length of the board is
+                                            measured from nose to tail - 6’6″<br>Width is measured from the widest part
+                                            - 20″1/4′<br>The widest part measures thickness - 2″5/6′
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="accordion" class="accordionTabs mb-5 mb-lg-0 d-block d-lg-none">
+                                <div class="card">
+                                    <div class="card-header" id="tabOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Description</button>
+                                        </h5>
+                                    </div>
+                              
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="tabOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>Easy to ride, care free surfing craft that's fun for everyone, paddles well,
+                                            superfast down the line and great for every level of surfing depending on
+                                            who rides it. The Donny Stocker, a rework on design from stokesys first ever
+                                            pro model. A super easy to surf and fun board. The Donny Stoker is a board
+                                            for total freesurfing expression.</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="card">
+                                    <div class="card-header" id="tabTwo">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Features</button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="tabTwo" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>+ Manoeuvrable when riding
+                                            down the wave<br>+ Easy to duck dive</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="card">
+                                    <div class="card-header" id="tabhree">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Dimensions</button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="tabThree" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>The length of the board is measured from nose to tail - 6’6″<br>Width is measured from the widest part - 20″1/4′<br>The widest part measures thickness - 2″5/6′</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="board__info d-flex flex-row">
+                                <span class="board__price mr-4">499</span>
+                                <button type="button" class="btn-blue btn-primary btn-sm">Buy now</button>
+                            </div>
+                            <div class="view d-flex mb-0">
+                                <a class="view__link" href="#">View all boards</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev d-none d-xl-block" href="#boards" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" style="background-image: url(img/Arrow_left.png);" aria-hidden="true" ></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next d-none d-xl-block" href="#boards" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true" style="background-image: url(img/Arrow_right.png);"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!--About-->
+    <div class="about flex-column overflow-hidden " id="about">
+        <div class="container">
+            <div class="about__heading d-flex justify-content-center col-12">
+                <h1 class="about__heading-title">About us</h1>
+            </div>
+        </div>
+        <div class="about__inner">
+            <div class="about__img">
+                <img class="about__us d-none d-sm-none d-md-none d-lg-none d-xl-block w-100 overflow-hidden" src="img/about_us.png">
+            </div>
+            <div class="row justify-content-md-center justify-content-xl-start  mx-0">
+                <div class="about__card col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 mb-lg-4">
+                    <h1 class="about__title text-center">We are Surfers co.</h1>
+                    <img class="about__icon d-none d-sm-none d-md-block" src="img/X_Icon.png">
+                    <p class="about__text text-left">Lorem ipsum dolor sit amet, aenean consectetuer adipiscing elit.
+                        Fusce iaculis fuegiat arcunum fermentum hendrerit. Suspendisi auctor labor nisi, et interdum
+                        ciam facilisis, aliquam pulvinar semi egetis belle sollicitudin ut. Nullam tincidun finibustus
+                        scelerisque.</p>
+                    <div class="about__info d-flex mb-0">
+                        <a class="about__link" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="about__media col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-0 p-xl-4 ml-xl-5">
+                    <a class="about__media-content" href="https://www.youtube.com/watch?v=adOq_F7SMPQ&feature=youtu.be">
+                        <div class="about__video">
+                            <div class="play">
+                                <img class="play__button" src="img/Play_icon.png">
+                            </div>
+                            <img class="video__poster d-block" src="img/video.png">
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Team-->
+    <div class="team" id="team">
+        <div class="container">
+            <div class="team__heading d-flex col-12 justify-content-center">
+                <h1 class="team__heading-title">Our Team</h1>
+            </div>
+            <div id="multiCarouselTeam" class="carousel slide d-none d-sm-none d-md-none d-lg-block"
+                data-ride="carousel" data-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel__cards row mx-xl-0" id="carousel__cards">
+                            <div class="carousel__card col-3">
+                                <img class="team__photo" src="img/team1.png" alt="">
+                                <h3 class="team__title">Taj Burrow</h3>
+                                <p class="team__subtitle">@tajamos</p>
+                                <img class="team__icon" src="img/wave_grey.png">
+                                <p class="team__location">Yallingup, Australia</p>
+                            </div>
+                            <div class="carousel__card col-3">
+                                <img class="team__photo" src="img/team2.png">
+                                <h3 class="team__title text-white">Malia Manuel</h3>
+                                <p class="team__subtitle">@maliamanuel</p>
+                                <img class="team__icon" src="img/wave_blue.png">
+                                <p class="team__location">Wailua, Hi</p>
+                            </div>
+                            <div class="carousel__card col-3">
+                                <img class="team__photo" src="img/team3.png">
+                                <h3 class="team__title">Ian Walsh</h3>
+                                <p class="team__subtitle">@ianwalsh</p>
+                                <img class="team__icon" src="img/wave_grey.png">
+                                <p class="team__location">Maui, Hi</p>
+                            </div>
+                            <div class="carousel__card col-3">
+                                <img class="team__photo" src="img/team4.png">
+                                <h3 class="team__title">Macy Callaghan</h3>
+                                <p class="team__subtitle">@macycallaghan</p>
+                                <img class="team__icon" src="img/wave_grey.png">
+                                <p class="team__location">San Clemente, CA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row" id="carousel__cards">
+                            <div class="carousel__card col-3">
+                                <img class="team__photo" src="img/team1.png" alt="">
+                                <h3 class="team__title">Taj Burrow</h3>
+                                <p class="team__subtitle">@tajamos</p>
+                                <img class="team__icon" src="img/wave_grey.png">
+                                <p class="team__location">Yallingup, Australia</p>
+                            </div>
+                            <div class="carousel__card col-3">
+                                <img class="team__photo" src="img/team2.png">
+                                <h3 class="team__title text-white">Malia Manuel</h3>
+                                <p class="team__subtitle">@maliamanuel</p>
+                                <img class="team__icon" src="img/wave_blue.png">
+                                <p class="team__location">Wailua, Hi</p>
+                            </div>
+                            <div class="carousel__card col-3">
+                                <img class="team__photo" src="img/team3.png">
+                                <h3 class="team__title">Ian Walsh</h3>
+                                <p class="team__subtitle">@ianwalsh</p>
+                                <img class="team__icon" src="img/wave_grey.png">
+                                <p class="team__location">Maui, Hi</p>
+                            </div>
+                            <div class="carousel__card col-3">
+                                <img class="team__photo" src="img/team4.png">
+                                <h3 class="team__title">Macy Callaghan</h3>
+                                <p class="team__subtitle">@macycallaghan</p>
+                                <img class="team__icon" src="img/wave_grey.png">
+                                <p class="team__location">San Clemente, CA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#multiCarouselTeam" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" style="background-image: url(img/Button_left.png);"
+                        aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#multiCarouselTeam" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" style="background-image: url(img/Button_right.png);"
+                        aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+            <div id="CarouselTeam" class="carousel slide d-block d-sm-block d-md-block d-lg-none" data-ride="carousel"
+                data-interval="false">
+                <ol class="carousel-indicators">
+                    <li data-target="#CarouselTeam" data-slide-to="0" class="active"></li>
+                    <li data-target="#CarouselTeam" data-slide-to="1"></li>
+                    <li data-target="#CarouselTeam" data-slide-to="2"></li>
+                    <li data-target="#CarouselTeam" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel__card d-flex flex-column">
+                            <img class="team__photo d-block" src="img/team1.png" alt="">
+                            <h3 class="team__title">Taj Burrow</h3>
+                            <p class="team__subtitle">@tajamos</p>
+                            <img class="team__icon" src="img/wave_grey.png">
+                            <p class="team__location">Yallingup, Australia</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel__card d-flex flex-column">
+                            <img class="team__photo d-block" src="img/team2.png">
+                            <h3 class="team__title text-white">Malia Manuel</h3>
+                            <p class="team__subtitle">@maliamanuel</p>
+                            <img class="team__icon" src="img/wave_blue.png">
+                            <p class="team__location">Wailua, Hi</p>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="carousel__card d-flex flex-column">
+                            <img class="team__photo d-block" src="img/team3.png">
+                            <h3 class="team__title">Ian Walsh</h3>
+                            <p class="team__subtitle">@ianwalsh</p>
+                            <img class="team__icon" src="img/wave_grey.png">
+                            <p class="team__location">Maui, Hi</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel__card d-flex flex-column">
+                            <img class="team__photo d-block" src="img/team4.png">
+                            <h3 class="team__title">Macy Callaghan</h3>
+                            <p class="team__subtitle">@macycallaghan</p>
+                            <img class="team__icon" src="img/wave_grey.png">
+                            <p class="team__location">San Clemente, CA</p>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev d-none d-md-block" href="#CarouselTeam" role="button"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" style="background-image: url(img/Button_left.png);"
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next d-none d-md-block" href="#CarouselTeam" role="button"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" style="background-image: url(img/Button_right.png);"
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Blog-->
+    <div class="blog" id="blog">
+        <div class="container">
+            <div class="blog__heading col-12">
+                <h1 class="blog__heading-title text-center">Latest Updates</h1>
+                <img class="about__icon d-none d-sm-none d-md-block" src="img/X_Icon.png">
+            </div>
+            <div class="blog__inner row justify-content-center">
+                <a class="blog__card col-12 col-sm-12 col-md-12 col-lg-4 p-0" href="">
+                    <img src="img/blog1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Ellie Turner and Jobe Harris have taken out the 2016<br> British National Surf<br> Championships</p>
+                    </div>
+                </a>
+
+                <a class="blog__card col-12 col-sm-12 col-md-12 col-lg-4 p-0" href="">
+                    <img src="img/blog2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">A large group of surfers invaded the coast of La Jolla Shores, in California, with a single goal in mind</p>
+                    </div>
+                </a>
+                <a class="blog__card col-12 col-sm-12 col-md-12 col-lg-4 p-0" href="">
+                    <img src="img/blog3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Surfboards are constantly evolving, and there are multiple board designs for a broad range of environments.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="view-posts d-flex justify-content-center">
+                <a class="btn--long btn-primary btn-lg" href="#" role="button">View All Posts</a>
+            </div>
+
+        </div>
+    </div>
+    <!--Social Media-->
+    <div class="social__media_PC d-none d-sm-none d-md-none d-lg-none d-xl-block" id="social__media">
+        <div class="container">
+            <div class="social__inner row flex-column flex-lg-row">
+                <div class="social__inst d-none d-sm-none d-md-none d-lg-block col-lg-7">
+                    <div class="fb-page" data-tabs="timeline,events,messages"
+                        data-href="https://www.facebook.com/BundoranSurfco" data-width="500" data-hide-cover="false">
+                    </div>
+                </div>
+
+                <div class="social__fc d-none d-sm-none d-md-none d-lg-block col-lg-5 mx-md-auto text-center">
+                    <div class="fb-page" data-href="https://www.facebook.com/BundoranSurfco" data-width="380"
+                        data-hide-cover="false" data-show-facepile="true">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__inner row m-0 d-flex flex-column flex-md-row">
+                <div class="footer__block1 p-0 col-12 col-sm-12 col-md-6 d-flex flex-column">
+                     <div class="copyright d-flex justify-content-center justify-content-xl-start">
+                        <p>© 2017 Surfers Co. Design by @lucaalco</p>
+                    </div>
+                    <div class="social__footer d-flex d-sm-flex d-md-flex d-xl-none mt-0 mt-sm-0 mt-md-4 flex-row justify-content-center">
+                        <a class="social__item-footer ml-2 d-flex justify-content-center align-items-center" href="#">
+                            <i class="fa fa-twitter fa-4x mr-4" style="color: #00aced" aria-hidden="true"></i>
+                        </a>
+                        <a class="social__item-footer ml-2 d-flex justify-content-center align-items-center" href="#">
+                            <i class="fa fa-instagram fa-4x mr-4" style="color: #bc1888 " aria-hidden="true"></i>
+                        </a>
+                        <a class="social__item-footer ml-2 d-flex justify-content-center align-items-center" href="#">
+                            <i class="fa fa-facebook-official fa-4x mr-4" style="color: #3b5998" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__block2 p-0 col-12 col-sm-12 col-md-6 d-flex flex-column">
+                    <div class="block__list d-flex flex-row overflow-hidden">
+                        <ul class="block__left">
+                            <li><a class="info" href="#">About</a></li>
+                            <li><a class="info" href="#">Boards</a></li>
+                            <li><a class="info" href="#">Accessories</a></li>
+                            <li><a class="info" href="#">Blog</a></li>
+                        </ul>
+                        <ul class="block__right">
+                            <li><a class="info" href="#">Technology</a></li>
+                            <li><a class="info" href="#">Team</a></li>
+                            <li><a class="info" href="#">Dealers</a></li>
+                            <li><a class="info" href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact">
+                        <label for="email">Subscribe to our newsletter</label><input type="email" id="email"
+                            class="email" name="email" placeholder="&#xf0e0 Your email address">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="main.js"></script>
+    
+
+</body>
+
+</html>
